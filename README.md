@@ -1,3 +1,10 @@
+The `battery_status.py` file is a Python script that monitors your computer's battery status and provides audio alerts. Here's what it does:
+
+## Purpose
+This is a battery monitoring utility that runs continuously in the background and alerts you when:
+- Your battery is getting low (below 30%) and needs charging
+- Your battery is highly charged (above 90%) and should be unplugged
+
 ## Getting Started
 To get this running locally, please follow the steps below:
 1. Install python.
