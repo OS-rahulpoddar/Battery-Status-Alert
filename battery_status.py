@@ -19,11 +19,11 @@ def check_battery():
         percent = battery.percent
         charging = battery.power_plugged
 
-        if percent < 25 and not charging:
+        if percent < 30 and not charging:
             alert_msg = f"Warning! Battery low: {percent} percent. Please plug in the charger."
             speak(alert_msg)
 
-        elif percent > 95 and charging:
+        elif percent > 90 and charging:
             alert_msg = f"Battery charged {percent} percent. Please unplug the charger."
             speak(alert_msg)
 
